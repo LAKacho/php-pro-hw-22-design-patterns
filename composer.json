@@ -1,0 +1,19 @@
+{
+  "name": "student/design-patterns-homework",
+  "description": "Five independent PHP design pattern exercises",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.1",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DesignPatterns\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "php tests/run.php",
+    "demo": "php bin/demo.php"
+  }
+}
